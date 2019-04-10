@@ -1,6 +1,10 @@
 kind: pipeline
 name: default
 
+platform:
+  os: linux
+  arch: arm
+
 steps:
 - name: docker
   image: plugins/docker
